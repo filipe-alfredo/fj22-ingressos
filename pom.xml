@@ -150,4 +150,11 @@
         </plugins>
     </build>
 
+	<developers>
+         <developer>
+             <name>Filipe Alfredo (LORD)</name>
+             <email>filipe.alfredo@email.com</email>
+         </developer>
+     </developers>
+
 </project>
