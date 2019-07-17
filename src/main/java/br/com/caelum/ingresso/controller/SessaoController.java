@@ -51,6 +51,8 @@ public class SessaoController {
 		
 		sessaoDao.save(sessao);
 		
-      	return new ModelAndView("redirect:/admin/sala" + form.getSalaId() + "/sessoes");
+		System.out.println("TESTE");
+		
+      	return new ModelAndView("redirect:/admin/sala/" + form.getSalaId() + "/sessoes");
 	}
 }
