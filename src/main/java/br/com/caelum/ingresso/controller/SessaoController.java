@@ -57,6 +57,7 @@ public class SessaoController {
 		GerenciadorDeSessao gerenciador = new GerenciadorDeSessao(sessoesDaSala);
 		
 		if(gerenciador.cabe(sessao)) {
+			System.out.println("ENTROUUUUUUUUUUUUUUU");
 			sessaoDao.save(sessao);
 			return new ModelAndView("redirect:/admin/sala/" + form.getSalaId() + "/sessoes");
 		}
