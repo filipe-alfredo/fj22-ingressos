@@ -1,10 +1,12 @@
 package br.com.caelum.ingresso.model;
 
+import java.math.BigDecimal;
+import java.time.Duration;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import java.time.Duration;
 
 /**
  * Created by nando on 03/03/17.
@@ -25,7 +27,6 @@ public class Filme {
      * @deprecated hibernate only
      */
     public Filme() {
-
     }
     
     public Filme(String nome, Duration duracao, String genero) {
